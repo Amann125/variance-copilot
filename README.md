@@ -19,3 +19,8 @@ Without an `ANTHROPIC_API_KEY` set, it uses template commentary so it still runs
 5. Write an Excel report with an expense summary tab and a flagged variances tab.
 
 Sample data is fictional.
+
+  ## Limitations
+  - The checker verifies dollar amounts and percents only. It cannot confirm that a stated driver is true, so every driver note still needs human review.
+  - The 5% and $5,000 materiality thresholds are settings at the top of the file, not universal rules.
+  - Sample data is fictional.
